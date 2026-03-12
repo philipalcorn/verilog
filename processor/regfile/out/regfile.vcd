@@ -1,0 +1,122 @@
+$date
+	Wed Mar 11 22:17:10 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_regfile $end
+$var wire 32 ! read_data_2 [31:0] $end
+$var wire 32 " read_data_1 [31:0] $end
+$var parameter 32 # NREG $end
+$var parameter 32 $ XLEN $end
+$var reg 1 % clk $end
+$var reg 5 & reg_dest [4:0] $end
+$var reg 5 ' reg_src_1 [4:0] $end
+$var reg 5 ( reg_src_2 [4:0] $end
+$var reg 32 ) write_data [31:0] $end
+$var reg 1 * write_enable $end
+$scope module dut $end
+$var wire 1 % clk $end
+$var wire 5 + reg_dest [4:0] $end
+$var wire 5 , reg_src_1 [4:0] $end
+$var wire 5 - reg_src_2 [4:0] $end
+$var wire 32 . write_data [31:0] $end
+$var wire 1 * write_enable $end
+$var parameter 32 / NREG $end
+$var parameter 32 0 XLEN $end
+$var reg 32 1 read_data_1 [31:0] $end
+$var reg 32 2 read_data_2 [31:0] $end
+$upscope $end
+$scope task check_equal $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100000 0
+b100000 /
+b100000 $
+b100000 #
+$end
+#0
+$dumpvars
+b0 2
+b0 1
+b0 .
+b0 -
+b0 ,
+b0 +
+0*
+b0 )
+b0 (
+b0 '
+b0 &
+0%
+b0 "
+b0 !
+$end
+#5000
+1%
+#10000
+b10010001101000101011001111000 )
+b10010001101000101011001111000 .
+b1 &
+b1 +
+1*
+0%
+#15000
+b10010001101000101011001111000 "
+b10010001101000101011001111000 1
+b1 '
+b1 ,
+1%
+#16000
+0*
+#20000
+b10101011101010110000000000010001 )
+b10101011101010110000000000010001 .
+b10 &
+b10 +
+1*
+0%
+#25000
+b10101011101010110000000000010001 !
+b10101011101010110000000000010001 2
+b10 (
+b10 -
+1%
+#26000
+0*
+#30000
+b11111111111111111111111111111111 )
+b11111111111111111111111111111111 .
+b0 &
+b0 +
+1*
+0%
+#35000
+b0 "
+b0 1
+b0 '
+b0 ,
+1%
+#36000
+0*
+#40000
+b11111010111110101111111011111110 )
+b11111010111110101111111011111110 .
+b1 &
+b1 +
+1*
+0%
+#45000
+b11111010111110101111111011111110 "
+b11111010111110101111111011111110 1
+b1 '
+b1 ,
+1%
+#46000
+0*

@@ -1,0 +1,3 @@
+Need to check the regfile testbench and see how those sorts of tests are 
+typically generated. The manual enabling/disabling is making
+me spend more time debugging the testbench than the actual module.
